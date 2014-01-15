@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+}
+body{
+	margin:0;
+	background-color:#272324;
+	color:#cfcfcf;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+div#contenido{
+	width:480px;
+	margin:0 auto;
+}
+
+header#cabecera{
+	padding: 20px;
+	background-image:url(../imagenes/1_01.jpg);
+	height: 384px;
+}
+
+#cabecera h1 {
+	padding: 7px;
+	font-size: 101px;
+	margin-bottom: 9px;
+	line-height: 101px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+#cabecera h2 {
+	padding: 7px;
+	font-size: 60px;
+	line-height: 60px;
+	margin-bottom: 9px;
+	display: inline-block;
+	text-transform: uppercase;
+	
+}
+#cabecera p {
+	padding: 7px;
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 9px;
+	display: inline-block;
+}
+#cabecera nav ul {
+	padding: 0;
+	padding: 7px;
+	list-style: none;
+	
+}
+#cabecera nav ul li {
+	display: inline;
+}
+#cabecera nav ul li a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	transition-property: all;
+	transition-duration: 0.3s;
+	text-transform: uppercase;
+}
+#cabecera nav ul li a:hover {
+	color: #00aeef;	
+}
+#cabecera nav ul li a.active {
+	color: #ff08b6;
+}
+
+.opacity {
+	color: #fff;
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.4);
+}
